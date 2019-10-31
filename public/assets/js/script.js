@@ -1,7 +1,7 @@
 function setup() {
     createCanvas(windowWidth,windowHeight);
     background(255,100,100);
-    socket = io.connect('http://localhost:3000');
+    socket = io.connect('https://pranjal-deep-drawing-tool.glitch.me/');
     socket.on('mouse',newDrawing);
 
     fill(255);
